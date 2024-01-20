@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #9DBC98;
+    height: 55px;
+  }
+
+  img {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+  }
+  .Aboutus {
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 10px;
+    position: relative;
+    top: 4px;
+  }
+  
+  .Aboutus a {
+    color: #ffffff;
+    /* color: #43766C; */
+  }
+  .Aboutus:hover{
+    background-color: #E5E1DA;
+    width: 60px;
+    height: 25px;
+    /* box-shadow: 4px 5px 5px #7E6363; */
+  }
+  .Aboutus a:hover{
+    color: #00ffdd;
+  }
+  .Connectus {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    top: 4px;
+  }
+  
+  .Connectus a {
+    color: #ffffff;
+    /* color: #B19470; */
+  }
+  .Connectus:hover{
+    background-color: #F1E4C3;
+    width: 75px;
+    height: 25px;
+    /* box-shadow: 4px 5px 5px #DED0B6; */
+  }
+  .Connectus a:hover{
+    color: #ff0000;
+  }
+  
+  /* تنسيق زر تسجيل الدخول */
+  .signup {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    top: 4px;
+  }
+  
+  .signup a {
+    color: #ffffff;
+    /* color: #76453B; */
+  }
+  .signup:hover{
+    background-color: #F1E4C3;
+    width: 55px;
+    height: 23px;
+    /* box-shadow: 4px 5px 5px #FAEED1; */
+  }
+  .signup a:hover{
+    color: #29ad1d;
+  }
+  .Login {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1px;
+    border-radius: 10px;
+    height: 40px;
+    position: relative;
+    top: 4px;
+  }
+  
+  .Login a {
+    color: #ffffff;
+     /* color: #F8FAE5; */
+  }
+  .Login:hover{
+    background-color: #597E52;
+    width: 50px;
+    height: 23px;
+    /* box-shadow: 4px 5px 5px #607274; */
+  }
+  .Login a:hover{
+    color: #eeff00;
+  }
+ 
